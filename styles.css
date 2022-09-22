@@ -1,0 +1,25 @@
+lbody{
+    background-color: aliceblue;
+}
+
+div#container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+h1{
+    font-size: 50px;
+}
+
+li{
+    font-size: 20px;
+}
+
+input#senha{
+    border-radius: 25px;
+    width: 25vh;
+    height: 2vw;
+}

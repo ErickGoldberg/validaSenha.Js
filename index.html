@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Projeto Js</title>
+</head>
+<body>
+
+    <div id="container">
+       <h1>Validação de senha</h1>
+
+        <ul>
+            <li id="oito">Possuir no mínimo 8 caracteres</li>
+            <li id="num">Possuir ao menos 1 digito númerico</li>
+            <li id="maiuscula">Possuir ao menos 1 letra maiúscula</li>
+            <li id="caracterEspecial">Possuir ao menos 1 caracter especial</li>
+        </ul>
+
+        <input type="password" placeholder=" Digite a senha" id="senha">
+        <br>
+
+        <input type="button" value="Verificar" id="entrar">
+
+        <p id="aviso"></p>
+    </div>
+
+    <script src="validaSenha.js"></script>
+</body>
+</html>
